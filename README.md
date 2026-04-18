@@ -18,4 +18,10 @@ The main aim is to make the website more interactive and understandable. The cur
 BUILDING THE FOUNDATION [MUST BE COMPLETED BEFORE THE 20TH OF APRIL 2026] <br>
 -Planning, Research, Creating a basic html structure, Organising project files <br>
 
+
+
+
+## SITEMAP
+
+
 DESIGNINING THE VISUALS [MUST BE DONE BEFORE THE 29TH OF MAY 2026]
