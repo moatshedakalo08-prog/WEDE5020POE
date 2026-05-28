@@ -1,0 +1,29 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+    background-color: 	#800020;
+}
+
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #DAA520;
+}
+
+.contact {
+    text-align: center;
+    padding: 20px;
+    background-color: 	#800020;
+}
+
+.services {
+    text-align: center;
+    padding: 20px;
+    background-color: #DAA520;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    background-color: 	#654321;
+}
