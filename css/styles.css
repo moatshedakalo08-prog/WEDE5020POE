@@ -1,29 +1,55 @@
 .homepage {
     text-align: center;
     padding: 20px;
-    background-color: 	#800020;
+     background-color: 	#654321;
 }
 
 .about {
     text-align: center;
     padding: 20px;
-    background-color: #DAA520;
+    background-color: 	#654321;
 }
 
 .contact {
     text-align: center;
     padding: 20px;
-    background-color: 	#800020;
+    background-color: 	#654321;
 }
 
 .services {
     text-align: center;
     padding: 20px;
-    background-color: #DAA520;
+    background-color: 	#654321;
 }
 
 .profile {
     text-align: center;
     padding: 20px;
     background-color: 	#654321;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #DAA520;
+}
+.header {
+    background-color:#654321;
+    padding: 10px;
+    text-align: left;
+    color: 	#DAA520;
+    ul {
+        list-style-type: vertical;
+        margin: 0;
+        padding: 0;
+        color: 	#DAA520;
+    }
+    li {
+        display: block;
+        margin-bottom: 10px;
+        color: 	#DAA520;
+    }
+    a {
+        text-decoration: none;
+        color: 	#DAA520;
+    }
 }
