@@ -9,6 +9,8 @@
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
+    display: block;
+    flex-direction: column;
 }
 
 
@@ -24,6 +26,7 @@
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
+    display: block;
 }
 
 
@@ -37,7 +40,8 @@
     line-height: normal;
     letter-spacing: normal;
     text-decoration: none;
-    text-transform: no
+    text-transform: none;
+    display: block;
 }
 
 
@@ -52,7 +56,7 @@
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
-    
+    display: block;
 }
 
 .profile {
@@ -66,6 +70,8 @@
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
+    display: block;
+    
 }
 .footer {
     text-align: center;
