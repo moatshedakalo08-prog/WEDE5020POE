@@ -3,10 +3,10 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 1em;
     font-weight: 100;
     line-height: normal;
-    letter-spacing: normal;
+    letter-spacing: 1%;
     text-decoration: none;
     text-transform: none;
     display: block;
@@ -20,13 +20,14 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 1em;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
     display: block;
+    flex-direction: column;
 }
 
 
@@ -35,13 +36,14 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 1em;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
     display: block;
+    flex-direction: column;
 }
 
 
@@ -50,13 +52,14 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-     font-size: normal;
+     font-size: 1em;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
     display: block;
+    flex-direction: column;
 }
 
 .profile {
@@ -64,21 +67,21 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-    font-size: normal;
+    font-size: 1em;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
     display: block;
-    
+    flex-direction: column;
 }
 .footer {
     text-align: center;
     padding: 20px;
     background-color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: normal;
+     font-size: 1rem;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -104,7 +107,7 @@
     margin-bottom: 10px;
     color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: normal;
+     font-size: 1rem;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -115,7 +118,7 @@
     text-decoration: none;
     color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: normal;
+     font-size: 1rem;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -125,7 +128,7 @@
 .main {
     background-color: beige;
     font-family: 'Roboto', sans-serif;
-     font-size: normal;
+     font-size: 1rem;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
