@@ -9,6 +9,11 @@
     letter-spacing: normal;
     text-decoration: none;
     text-transform: none;
+    width: 100%;
+    img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
@@ -60,7 +65,7 @@
     padding: 20px;
     background-color: 	#654321;
     font-family: 'Roboto', sans-serif;
-    font-size: 0%;
+    font-size: normal;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -72,7 +77,7 @@
     padding: 20px;
     background-color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: 0%;
+     font-size: normal;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -98,7 +103,7 @@
     margin-bottom: 10px;
     color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: 0%;
+     font-size: normal;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -109,7 +114,7 @@
     text-decoration: none;
     color: #DAA520;
     font-family: 'Roboto', sans-serif;
-     font-size: 0%;
+     font-size: normal;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
@@ -119,7 +124,7 @@
 .main {
     background-color: beige;
     font-family: 'Roboto', sans-serif;
-     font-size: 0%;
+     font-size: normal;
     font-weight: 100;
     line-height: normal;
     letter-spacing: normal;
