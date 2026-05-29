@@ -17,12 +17,16 @@ The main aim is to make the website more interactive and understandable. The cur
 
 BUILDING THE FOUNDATION [MUST BE COMPLETED BEFORE THE 20TH OF APRIL 2026] <br>
 -Planning, Research, Creating a basic html structure, Organising project files <br>
+DESIGNING THE VISUALS [MUST BE COMPLETED BEFORE THE 29TH]<br>
+-Research and planning [BEGIN ON THE 20th APRIL]
+-Implementing the CSS and adding responsiveness[MUST BE FINISHED BEFORE THE 29TH OF MAY]
+-CONCLUSION[29TH OF MAY]
 
 
 
 
 ## SITEMAP
-<img src="Screenshot 2026-04-18 183321.png" alt="https://drive.google.com/file/d/1t79dljx9_XMwwdfST4fLoko6TMZEx3L0/view?usp=sharing">
+<img src="img/Screenshot 2026-04-18 183321.png" alt="https://drive.google.com/file/d/1t79dljx9_XMwwdfST4fLoko6TMZEx3L0/view?usp=sharing">
 
 ## REFERENCES
 -Indexed by google. May 2021 Elements group. AVAILABLE AT: https://elementsgroup.co.za [accessed 5th of April 2026]<br>
