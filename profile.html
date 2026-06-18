@@ -11,48 +11,64 @@
         <p>Elements@Church is a trendy bar and the one of the finest dining destination at the heart of Pretoria. </p>
     </div>
 </head>
-<div class="header">
-    <header>
-    <nav>
-        <h1>ELEMENTS@CHURCH</h1>
-        <ul>
-            <li><a href="index.html">HOMEPAGE</a></li>
-            <li><a href="about.html">ABOUT US</a></li>
-            <li><a href="contact.html">CONTACT US</a></li>
-            <li><a href="services.html">SERVICES</a></li>
-            <li><a href="profile.html">PROFILE</a></li>
-        </ul>
-    </nav>
-</header>
+<body>
+    
+ <div class="tab" style="background-color: #654321;">
+        <button class="tablinks" onclick="openTab(event, 'index.html')"><a href="index.html" style="color: #654321;">HOMEPAGE</a></button>
+        <button class="tablinks" onclick="openTab(event, 'about.html')"><a href="about.html" style="color: #654321;">ABOUT US</a></button>
+        <button class="tablinks" onclick="openTab(event, 'contact.html')"><a href="contact.html" style="color: #654321;">CONTACT US</a></button>
+        <button class="tablinks" onclick="openTab(event, 'services.html')"><a href="services.html" style="color: #654321;">SERVICES</a></button>
+        <button class="tablinks" onclick="openTab(event, 'profile.html')"><a href="profile.html" style="color: #654321;">PROFILE</a></button>
+    </div>
+    <div id="index.html" class="tabcontent">
+    </div>
+    <div id="about.html" class="tabcontent">
+    </div>
+    <div id="contact.html" class="tabcontent">
+    </div>
+    <div id="services.html" class="tabcontent">
+    </div>
+    <div id="profile.html" class="tabcontent">
+   </div>
+   <br>
 </div>
 <div class="main">
-<main>
+    <main>
     <h2>LOGIN FORM</h2>
     <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">LOGIN</button>
-    <div id="id01" class="modal">
-        <form class="modal-content animate" action="/action_page.php">
+    <div id="id01" class="modal"> <br>
+        <button id="close" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</button>
+        <form class="modal-content animate" action="/action_page.php"></span>
+               
             <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&tim <img id="avatar" src="images/Screenshot_29-5-2026_124827_www.bing.com.jpeg" alt="Avatar" class="avatar">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img/Screenshot_29-5-2026_124827_www.bing.com.jpeg" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
                 <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Enter Username" name="uname" required><br>
+<br>
 
+            <div class="container">
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required><br>
+                <br>
                 <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-
+                <input type="password" placeholder="Enter Password" name="psw" required><br>
+<br>
                 <button type="submit">Login</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
-
-            <div class="container" style="background-color:#f1f1f1">
+<br>
+            <div class="container" style="background-color:beige;">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
         </form>
+    </div>
 
 </main>
 </div>
