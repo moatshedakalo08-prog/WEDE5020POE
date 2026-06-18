@@ -84,7 +84,16 @@
         border: 1px solid #ccc;
         box-sizing: border-box;
     }
-}
+    /*set a style for all buttons*/
+    button {
+        background-color: #DAA520;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+    }
+
 .footer {
     text-align: center;
     padding: 20px;
