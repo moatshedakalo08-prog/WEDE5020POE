@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.javascript"></script>
+    <div class="homepage">
+        <h3>DATE :</h3> <script>
+            const date = new Date();
+            document.write(date.toDateString());
+       </script>
+</head>
+<body>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'index.html')"><a href="index.html" style="color: white;">HOMEPAGE</a></button>
+        <button class="tablinks" onclick="openTab(event, 'about.html')"><a href="about.html" style="color: white;">ABOUT US</a></button>
+        <button class="tablinks" onclick="openTab(event, 'contact.html')"><a href="contact.html" style="color: white;">CONTACT US</a></button>
+        <button class="tablinks" onclick="openTab(event, 'services.html')"><a href="services.html" style="color: white;">SERVICES</a></button>
+        <button class="tablinks" onclick="openTab(event, 'profile.html')"><a href="profile.html" style="color: white;">PROFILE</a></button>
+        <button class="tablinks" onclick="openTab(event, 'gallery.html')"><a href="gallery.html" style="color: white;">GALLERY</a></button>
+         <button class="tablinks" onclick="openTab(event, 'search.html')">SEARCH</button>
+    </div>
+    <div id="index.html" class="tabcontent">
+    </div>
+    <div id="about.html" class="tabcontent">
+    </div>
+    <div id="contact.html" class="tabcontent">
+    </div>
+    <div id="services.html" class="tabcontent">
+    </div>
+    <div id="profile.html" class="tabcontent">
+        
+    </div>
+    <div id="gallery.html" class="tabcontent">
+        
+    </div>
+    <div id="search.html" class="tabcontent">
+    <a href="index.html" style="color: white;">HOMEPAGE</a>
+    <a href="about.html" style="color: white;">ABOUT US</a>
+    <a href="contact.html" style="color: white;">CONTACT US</a>  
+    <a href="services.html" style="color: white;">SERVICES</a>
+    <a href="gallery.html" style="color: white;">GALLERY</a>
+    <a href="profile.html" style="color: white;">PROFILE</a>
+</div>
+    <div class="main">
+    <main>
+        <h1>GALLERY</h1>
+        <p>Images from the official website</p>
+        <p> WE HAVE A WIDE SELECTION OF FOOD THAT MATCHES YOUR ASTHETIC PREFERENCES</p>
+<p>Be it snow, mountains or nature we have the perfect meal for you!</p>
+        <!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="img/img1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/img2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/img3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="img/img4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/img5.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/img6.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/img7.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/img4.png" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+<p> WE HAVE A WIDE SELECTION OF FOOD THAT MATCHES YOUR ASTHETIC PREFERENCES</p>
+<p>Be it snow, mountains or nature we have the perfect meal for you!</p>
+<!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="img/img1.png" onclick="currentSlide(1)" alt="Nature">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img2.png" onclick="currentSlide(2)" alt="Snow">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img3.png" onclick="currentSlide(3)" alt="Mountains">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/img4.png" onclick="currentSlide(4)" alt="Lights">
+    </div>
+  </div>
+</div>
+</div>
+    <div class="footer">
+    <footer><!--information gathered from offical website-->
+<p>CONTACT US</p>
+<p>41 WF NKOMO STREET <br>
+Pretoria Central <br> 
+CELL: 012 941 9778 or 012 941 9777<br>
+EMAIL: info@elementsgroup.co.za</p>
+
+<p>OPERATING HOURS <br>
+Monday to Sunday: 09:00am - 02:00am</p>
+    </footer>
+    </div>
+</body>
+</html>
+
+    
+</body>
+</html>
