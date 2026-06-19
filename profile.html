@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/script.js"></script>
     <div class="profile">
+        <h3>DATE :</h3> <script>
+            const date = new Date();
+            document.write(date.toDateString());
+       </script>
         <h1>PROFILE</h1>
         <p>Elements@Church is a trendy bar and the one of the finest dining destination at the heart of Pretoria. </p>
     </div>
@@ -19,6 +23,8 @@
         <button class="tablinks" onclick="openTab(event, 'contact.html')"><a href="contact.html" style="color: #654321;">CONTACT US</a></button>
         <button class="tablinks" onclick="openTab(event, 'services.html')"><a href="services.html" style="color: #654321;">SERVICES</a></button>
         <button class="tablinks" onclick="openTab(event, 'profile.html')"><a href="profile.html" style="color: #654321;">PROFILE</a></button>
+        <button class="tablinks" onclick="openTab(event, 'gallery.html')"><a href="gallery.html" style="color: #654321;">GALLERY</a></button>
+    
     </div>
     <div id="index.html" class="tabcontent">
     </div>
@@ -29,6 +35,9 @@
     <div id="services.html" class="tabcontent">
     </div>
     <div id="profile.html" class="tabcontent">
+   </div>
+   <div id="gallery.html" class="tabcontent">
+        
    </div>
    <br>
 </div>

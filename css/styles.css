@@ -504,5 +504,51 @@ hr {
     text-transform: none;
    
 }
+.gallery {
+    text-align: center;
+    padding: 20px;
+    background-color: 	#654321;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 1%;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    flex-direction: column;
+    .tab{
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #ccc;
+        background-color:inherit;
+    }
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: #DAA520;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+    }
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #654321;
+    }
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #654321;
+    }
+    /* Style the tab content */
+    .tabcontent {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ccc;
+        border-top: none;
+        padding:evenly;
+    }
+}
 
 
